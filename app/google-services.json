@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "261358947950",
+    "firebase_url": "https://infurza-infurza.firebaseio.com",
+    "project_id": "infurza-infurza",
+    "storage_bucket": "infurza-infurza.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261358947950:android:bf2edad1b685a867",
+        "android_client_info": {
+          "package_name": "com.infurza.infurzaapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261358947950-5kgfn44kh7bs78boi09vaa7kss7ggtjt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.infurza.infurzaapplication",
+            "certificate_hash": "90de1552c676992f428f900d0cc9c3d852da5dbd"
+          }
+        },
+        {
+          "client_id": "261358947950-6qoq7m9mnk50f85ptqsejs752819vslb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYIJwwvaS4ekDfGcasMotZv_KKMaBT_1U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261358947950-6qoq7m9mnk50f85ptqsejs752819vslb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
