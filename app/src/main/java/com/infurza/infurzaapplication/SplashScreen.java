@@ -2,15 +2,22 @@ package com.infurza.infurzaapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
+import android.view.animation.AnimationSet;
+
+import java.util.Timer;
+import java.util.TimerTask;
 
 import static android.view.animation.Animation.AnimationListener;
 
-public class SplashScreen extends AppCompatActivity implements AnimationListener {
+public class SplashScreen extends AppCompatActivity implements AnimationListener{
 
     ImageView imageIcon;
     ImageView imageIcon1;
@@ -42,6 +49,7 @@ public class SplashScreen extends AppCompatActivity implements AnimationListener
         animMoveToTop.setAnimationListener(this);
 
         imageIcon.setVisibility(View.VISIBLE);
+        imageIcon1.setVisibility(View.VISIBLE);
 
         // start the animation
         imageIcon.startAnimation(animMoveToTop);
@@ -52,7 +60,7 @@ public class SplashScreen extends AppCompatActivity implements AnimationListener
         // set animation listener
         animMoveToTop1.setAnimationListener(this);
 
-        imageIcon1.setVisibility(View.VISIBLE);
+
 
 
         // start the animation
@@ -71,6 +79,16 @@ public class SplashScreen extends AppCompatActivity implements AnimationListener
         imageIcon2.startAnimation(animMoveToTop2);
 
 
+        Timer timer = new Timer();
+        timer.schedule(new TimerTask() {
+
+            public void run() {
+                Intent intent = new Intent(SplashScreen.this, HomeActivity.class);
+                startActivity(intent);
+
+            }
+
+        }, 6+000);
 
 
     }
@@ -82,9 +100,6 @@ public class SplashScreen extends AppCompatActivity implements AnimationListener
 
     @Override
     public void onAnimationEnd(Animation animMoveToTop2) {
-
-        Intent intent = new Intent(SplashScreen.this, HomeActivity.class);
-        startActivity(intent);
 
 
 

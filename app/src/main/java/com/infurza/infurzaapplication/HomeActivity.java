@@ -144,8 +144,12 @@ public class HomeActivity extends AppCompatActivity {
                     dialog.dismiss();
                 }
             } catch (ApiException e) {
+                e.getStatusCode();
+                e.getMessage();
+                e.getStackTrace();
+                e.getCause();
                 // Google Sign In failed, update UI appropriately
-                Log.w("TAG", "Google sign in failed", e);
+                Log.w("GOOGLE LOGIN", "Google sign in failed", e);
                 if (dialog != null && dialog.isShowing()) {
                     dialog.dismiss();
                 }
