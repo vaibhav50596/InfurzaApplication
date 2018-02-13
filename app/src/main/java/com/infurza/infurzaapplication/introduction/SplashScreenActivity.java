@@ -1,32 +1,26 @@
-package com.infurza.infurzaapplication;
+package com.infurza.infurzaapplication.introduction;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
-import android.view.animation.AnimationSet;
+
+import com.infurza.infurzaapplication.R;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
 import static android.view.animation.Animation.AnimationListener;
 
-public class SplashScreen extends AppCompatActivity implements AnimationListener{
+public class SplashScreenActivity extends AppCompatActivity implements AnimationListener{
 
     ImageView imageIcon;
     ImageView imageIcon1;
     ImageView imageIcon2;
-    public int time=5000;
 
-
-
-    // Animation
     Animation animMoveToTop;
     Animation animMoveToTop1;
     Animation animMoveToTop2;
@@ -83,12 +77,12 @@ public class SplashScreen extends AppCompatActivity implements AnimationListener
         timer.schedule(new TimerTask() {
 
             public void run() {
-                Intent intent = new Intent(SplashScreen.this, HomeActivity.class);
+                Intent intent = new Intent(SplashScreenActivity.this, ViewPagerActivity.class);
                 startActivity(intent);
 
             }
 
-        }, 6+000);
+        }, 4000);
 
 
     }

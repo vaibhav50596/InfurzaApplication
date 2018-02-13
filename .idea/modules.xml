@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/InfurzaApplication.iml" filepath="$PROJECT_DIR$/.idea/InfurzaApplication.iml" />
-      <module fileurl="file://C:\Infurza Android app\InfurzaApplication\InfurzaApplication.iml" filepath="C:\Infurza Android app\InfurzaApplication\InfurzaApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InfurzaApplication.iml" filepath="$PROJECT_DIR$/InfurzaApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

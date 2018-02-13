@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infurza.infurzaapplication.introduction.ViewPagerActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382">
+
+    </android.support.v4.view.ViewPager>
+
+    <Button
+        android:id="@+id/viewPagerSkip"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="60dp"
+        android:alpha="0.6"
+        android:background="@color/colorPrimary"
+        android:foreground="@drawable/ripple_effect"
+        android:text="@string/back"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/viewPagerNext"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="60dp"
+        android:alpha="0.6"
+        android:background="@color/colorPrimary"
+        android:foreground="@drawable/ripple_effect"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

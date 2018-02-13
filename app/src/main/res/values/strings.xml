@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Infurza</string>
-    <string name="clientID">261358947950-6qoq7m9mnk50f85ptqsejs752819vslb.apps.googleusercontent.com</string>
+    <string name="back">Skip</string>
+    <string name="next">Next</string>
+    <string name="event">Events</string>
+    <string name="project">Projects</string>
+    <string name="recycle">Recycle</string>
+    <string name="profile">Profile</string>
+    <string name="main_app_name">Infurza Waste Management</string>
+    <string name="sub_app_name">solutions &amp; Services</string>
+    <string name="logintext">Use one click Google login to explore</string>
 </resources>

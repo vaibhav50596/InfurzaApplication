@@ -1,16 +1,15 @@
-package com.infurza.infurzaapplication;
+package com.infurza.infurzaapplication.activities;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
-import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.firebase.auth.FirebaseAuth;
+import com.infurza.infurzaapplication.R;
+import com.infurza.infurzaapplication.introduction.LoginActivity;
 
 public class BaseActivity extends AppCompatActivity {
 
@@ -45,7 +44,7 @@ public class BaseActivity extends AppCompatActivity {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 if (firebaseAuth.getCurrentUser() == null){
-                    startActivity(new Intent(BaseActivity.this, HomeActivity.class));
+                    startActivity(new Intent(BaseActivity.this, LoginActivity.class));
                 }
             }
         };

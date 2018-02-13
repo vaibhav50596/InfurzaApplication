@@ -4,27 +4,34 @@
     android:id="@+id/activity_animation"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:layout_marginTop="@dimen/_50sdp">
 
     <ImageView
         android:id="@+id/icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/hi"
+        android:src="@drawable/sunlogo"
         android:layout_centerHorizontal="true"
-        android:visibility="gone"/>
+        android:visibility="gone"
+        />
     <ImageView
         android:id="@+id/icon1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ab"
+        android:src="@drawable/recyclelogo"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
         android:layout_centerHorizontal="true"
-        android:visibility="gone"/>
+        android:visibility="gone"
+        />
     <ImageView
         android:id="@+id/icon2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/sun"
+        android:src="@drawable/textlogo"
         android:layout_centerHorizontal="true"
-        android:visibility="gone"/>
+        android:layout_marginTop="@dimen/_10sdp"
+        android:visibility="gone"
+        />
 </RelativeLayout>
