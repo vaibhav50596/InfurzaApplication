@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/img_pager_item"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_350sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:clickable="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -18,10 +18,10 @@ public class ViewPagerActivity extends AppCompatActivity implements ViewPager.On
     public String flag = "";
 
     private int[] mImageResources = {
-            R.drawable.ic_viewpagerone,
-            R.drawable.ic_viewpagertwo,
-            R.drawable.ic_viewpagerthree,
-            R.drawable.ic_viewpagerfour
+            R.drawable.viewpagerone,
+            R.drawable.viewpagertwo,
+            R.drawable.viewpagerthree,
+            R.drawable.viewpagerfour
 
     };
 
@@ -67,7 +67,7 @@ public class ViewPagerActivity extends AppCompatActivity implements ViewPager.On
     public void onClick(View view) {
         switch(view.getId()){
             case R.id.viewPagerNext:
-                if(viewPager.getCurrentItem() == 0 || viewPager.getCurrentItem() == 1){
+                if(viewPager.getCurrentItem() == 0 || viewPager.getCurrentItem() == 1 || viewPager.getCurrentItem() == 2){
                     viewPager.setCurrentItem(viewPager.getCurrentItem() + 1);
                 } else{
                     Intent intent = new Intent(ViewPagerActivity.this, LoginActivity.class);

@@ -53,8 +53,8 @@ import java.io.IOException;
 public class LoginActivity extends AppCompatActivity {
 
     SignInButton googleSignInButton;
-    private FirebaseAuth mAuth;
-    FirebaseAuth.AuthStateListener mAuthListener;
+    public FirebaseAuth mAuth;
+    public FirebaseAuth.AuthStateListener mAuthListener;
     private final static int RC_SIGN_IN = 2;
     Dialog dialog;
 

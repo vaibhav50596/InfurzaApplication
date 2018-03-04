@@ -9,4 +9,32 @@
     <string name="main_app_name">Infurza Waste Management</string>
     <string name="sub_app_name">solutions &amp; Services</string>
     <string name="logintext">Use one click Google login to explore</string>
+    <string name="list_item">List Items Dummy Text</string>
+
+    <string-array name="mobileBrands">
+        <item>Apple</item>
+        <item>Google</item>
+        <item>Samsung</item>
+        <item>Sony</item>
+        <item>BlackBerry</item>
+        <item>HTC</item>
+        <item>Motorola</item>
+        <item>OnePlus</item>
+        <item>Panasonic</item>
+        <item>Asus</item>
+        <item>Lenovo</item>
+        <item>MI</item>
+        <item>Micromax</item>
+        <item>Oppo</item>
+        <item>Vivo</item>
+        <item>LYF/Jio</item>
+        <item>LG</item>
+        <item>Lava</item>
+        <item>Intex</item>
+        <item>Gionee</item>
+        <item>Huawei</item>
+        <item>Karbonn</item>
+        <item>Letv</item>
+        <item>Xolo</item>
+    </string-array>
 </resources>

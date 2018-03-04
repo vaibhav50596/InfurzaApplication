@@ -9,5 +9,5 @@
         android:fromYDelta="100%p"
         android:toYDelta="0%p"
         android:duration="500"
-        android:startOffset = "1500"/>
+        android:startOffset = "1000"/>
 </set>
